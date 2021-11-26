@@ -1,0 +1,22 @@
+:root{
+    /* Colores */
+    --blanco: #FFFFFF;
+    --amarillo: #F9E2A7;
+    --turquesa: #6FF1DB;
+    --rosado: #F193EB;
+    --lila: #D840FF;
+    --morado: #7E25E7;
+    --negro: #000000;
+    --plomo: #747474;
+    --plomoClaro: #B8B8B8;
+
+    /* fuentes */
+
+    --montserrat: font-family: 'Montserrat', sans-serif;
+    --roboto: font-family: 'Roboto', sans-serif;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+}
