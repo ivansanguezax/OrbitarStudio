@@ -12,11 +12,70 @@
 
     /* fuentes */
 
-    --montserrat: font-family: 'Montserrat', sans-serif;
-    --roboto: font-family: 'Roboto', sans-serif;
+    --montserrat: 'Montserrat', sans-serif;
+    --roboto:'Roboto', sans-serif;
 }
 
 body{
     margin: 0px;
     padding: 0px;
 }
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+h1{
+    margin: 0;
+}
+
+/* HEADER */
+
+header{
+    background-color: var(--negro);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    
+}
+
+.header-menu ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--blanco);
+    flex-wrap: wrap;
+}
+
+.header-menu a{
+    color: var(--blanco);
+    margin-right: 15px;
+}
+.header-menu a:nth-child(10){
+    margin-right: 0px;
+}
+
+/* Hero Section  */
+
+.hero{
+    margin: 0px;
+    height: 810px;
+    background-image: url(../Assets/png/IMG_HEADER.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: var(--blanco);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.hero h1{
+    font-family: var(--montserrat);
+    font-size: 60px;
+}
+
+
+
