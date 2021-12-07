@@ -232,19 +232,12 @@ header{
     font-weight: 700;
     font-size: 30px;
 }
-.contactanos-description-p{
-    display: flex;
-    align-items: flex-start;
-    margin-bottom: 30px;
-}
-.contactanos-description-p img{
-    width: 20px;
-    margin-right: 10px;
-}
-.contactanos-description-p p {
+
+.contactanos-description p {
     font-family: var(--roboto);
     font-size: 14px;
     color: var(--plomo);
+    margin-bottom: 44px;
 }
 .contactanos-description a{
     background-color: transparent;
@@ -326,4 +319,22 @@ footer{
     background-color: var(--negro);
     color: var(--blanco);
     font-family: var(--montserrat);
+}
+
+.footer-description h3{
+    font-size: 12px;
+    font-weight: 700;
+}
+.footer-description h5{
+    font-size: 12px;
+    font-weight: lighter;
+}
+.footer-icons{
+    width: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer-icons a{
+    color: var(--blanco);
 }
