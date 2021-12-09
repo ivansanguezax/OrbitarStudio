@@ -1,3 +1,4 @@
+
 :root{
     /* Colores */
     --blanco: #FFFFFF;
@@ -63,6 +64,11 @@ header{
     margin-right: 0px;
 }
 
+button{
+    display: none;
+}
+
+
 /* Hero Section  */
 
 .hero{
@@ -76,6 +82,7 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
     
 }
 .hero-description h1{
@@ -108,6 +115,7 @@ header{
     color: var(--blanco);
     height: 386px;
 }
+
 
 
 .portafolio-description h2{
@@ -143,6 +151,7 @@ header{
     height: 226px;
 }
 
+
 /* ----Final portafolio----  */
 
 /* Sobre Nosotros */
@@ -152,6 +161,7 @@ header{
     flex-direction: column;
     padding: 80px 0px;
     text-align: center; 
+    flex-wrap: wrap;
 }
 .about-title h1{
     margin-bottom: 70px;
@@ -191,6 +201,7 @@ header{
     color: var(--plomoClaro);
     border-top: solid var(--plomo-claro) 1px;
     height: 180px;
+    flex-wrap: wrap;
 }
 .client-title h2{
     font-family: var(--montserrat);
@@ -220,6 +231,7 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
 }
 .contactanos-img {
     margin: 73px;
@@ -275,6 +287,7 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
 }
 .post-article-container{
     margin-right: 54px;
@@ -319,6 +332,7 @@ footer{
     background-color: var(--negro);
     color: var(--blanco);
     font-family: var(--montserrat);
+    flex-wrap: wrap;
 }
 
 .footer-description h3{
@@ -338,3 +352,4 @@ footer{
 .footer-icons a{
     color: var(--blanco);
 }
+

@@ -1,0 +1,48 @@
+@media screen and (max-width: 1200px) {
+    
+    .hero-image img{
+        width: 400px;
+    }
+}
+
+@media screen and (max-width: 1080px) {
+    
+    .hero-image img{
+        width: 300px;
+    }
+    .contactanos-img img{
+        width: 250px;
+    }
+    .contactanos{
+        height: auto;
+        padding:0px 0px 100px ;
+    }
+}
+@media screen and (max-width: 970px) {
+    
+    .hero-image img{
+        display: none;
+    }
+
+    .portafolio{
+        height: auto;
+        flex-direction: column;
+
+    }
+    .portafolio-video{
+        margin: 30px 0px 0px;
+    }
+    
+    .post{
+        height: auto;
+        padding: 100px 0px;
+    }
+    .post-article-container{
+        margin: 30px 0px 0px;
+    }
+}
+
+@media screen and (max-width: 720px) {
+
+}
+
