@@ -4,6 +4,7 @@
     --blanco: #FFFFFF;
     --amarillo: #F9E2A7;
     --turquesa: #6FF1DB;
+    --celeste:#DCEFFF;
     --verde: #11bf8b;
     --rosado: #F193EB;
     --lila: #D840FF;
@@ -366,3 +367,109 @@ footer{
     color: var(--blanco);
 }
 
+/* ----Final Footer---- */
+
+
+/*------FINAL INDEX------ */
+
+
+/* Portafolio  */
+
+.portafolio-main-title{
+    padding: 67px 100px 0px;
+    text-align: center;
+}
+
+.portafolio-main-title h1{
+    font-family: var(--montserrat);
+    font-weight: 700;
+    font-size: 60px;
+    margin: 15px 0px;
+}
+.portafolio-main-title h5{
+    font-family: var(--roboto);
+    font-weight: 300;
+    font-size: 18px;
+    color: var(--plomo);
+    margin: 15px 0px;
+}
+
+/* ---Final Portafolio---- */
+
+/* Videos */
+
+
+.portafolio-main-videos-article{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 28px 0px 0px;
+    margin: 57px 0px;
+    border-top: solid var(--plomo-claro) 1px;
+}
+.portafolio-main-videos-article-description-if{
+    width: 600px;
+    height: 317px;
+    margin-left: 52px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.portafolio-main-videos-article-description-m{
+    width: 600px;
+    height: 317px;
+    margin-right: 52px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.portafolio-main-videos-article-description-if h2, .portafolio-main-videos-article-description-m h2{
+    font-family: var(--montserrat);
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.portafolio-main-videos-article-description-if p, .portafolio-main-videos-article-description-m p{
+    font-family: var(--roboto);
+    font-weight: 500;
+    font-size: 14px;
+    color: var(--plomo);
+}
+
+/* ----Final Videos----- */
+
+/* Article */
+
+.portafolio-article{
+    background: rgb(241,147,235);
+    background: linear-gradient(90deg, rgba(241,147,235,1) 0%, rgba(111,241,219,1) 100%, rgba(241,147,235,1) 100%);
+    padding: 78px 0px;
+    font-family: var(--montserrat);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.portafolio-article h1{
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 26px;
+}
+.portafolio-article a{
+    color: var(--negro);
+    font-size: 12px;
+    font-weight: 700;
+    padding: 12px 36px;
+    width: 48px;
+    height: 15px;
+    border: solid var(--negro) 1px;
+    border-radius: 15px;
+}
+.portafolio-article a:hover{
+    background-color: var(--negro);
+    color: var(--blanco);
+}
