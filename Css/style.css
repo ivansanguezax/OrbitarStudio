@@ -64,9 +64,17 @@ header{
     margin-right: 0px;
 }
 
-button{
+
+/* Pruebas */
+.close, .hamburger{
     display: none;
 }
+
+
+
+/* -----Final pruebas------ */
+
+
 
 
 /* Hero Section  */
@@ -74,7 +82,7 @@ button{
 .hero{
     margin: 0px;
     height: 850px;
-    background-image: url(../Assets/png/background-main.png);
+    background-image: url(../Assets/png/background-main.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
