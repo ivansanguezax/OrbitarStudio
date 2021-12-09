@@ -42,7 +42,12 @@ header{
     align-items: center;
     font-family: 'Montserrat', sans-serif;
     font-size: 12px;
+    height: 90px;
     
+}
+
+.header-logo img{
+    width: 171px;
 }
 
 .header-menu ul{
