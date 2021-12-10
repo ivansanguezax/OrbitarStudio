@@ -479,3 +479,76 @@ footer{
     background-color: var(--negro);
     color: var(--blanco);
 }
+
+/* -----Final Portafolio----- */
+
+/* Clientes */
+
+.clientes{
+    padding: 31px 140px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+.clientes-description{
+    margin-right: 186px;
+}
+.clientes-description img{
+    width: 500px;
+}
+.clientes-description h1{
+    font-family: var(--montserrat);
+    font-weight: 600;
+    font-size: 30px;
+    color: var(--morado);
+}
+.clientes-description p{
+    font-family: var(--roboto);
+    font-size: 18px;
+    color: var(--plomo);
+}
+.clientes-form form{
+    display: flex;
+    flex-direction: column;
+}
+.clientes-form li{
+    list-style: none;
+}
+.clientes-form h3{
+    font-family: var(--roboto);
+    font-size: 14px;
+}
+.clientes-form input{
+    width: 374px;
+    height: 35px;
+    border-radius: 4px;
+    border: solid var(--plomoClaro) 1px;
+}
+.clientes-form select{
+    width: 380px;
+    height: 40px;
+    border-radius: 4px;
+    border: solid var(--plomoClaro) 1px;
+}
+.clientes-form textarea{
+    width: 374px;
+    height: 130px;
+    border-radius: 4px;
+    border: solid var(--plomoClaro) 1px;
+}
+.clientes-form button{
+    font-family: var(--montserrat);
+    font-weight: 700;
+    font-size: 12px;
+    width: 120px;
+    height: 40px;
+    padding: 12px 36px;
+    border: solid var(--negro) 1px;
+    background-color: transparent;
+    border-radius: 15px;
+    margin-top: 44px;
+}
+.clientes-form button:hover{
+    background-color: var(--negro);
+    color: var(--blanco);
+}
