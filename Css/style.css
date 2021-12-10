@@ -625,3 +625,38 @@ footer{
     background-color: var(--negro);
     color: var(--blanco);
 }
+
+/* ----Final Creativos----- */
+
+/* Contacto */
+
+.contacto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 515px;
+    padding: 31px 0px 115px ;
+}
+.contacto-imagen{
+    margin: 0px 114px 0px 0px;
+}
+.contacto-imagen img{
+    width: 474px;
+}
+.contacto-descripcion h1{
+    font-family: var(--montserrat);
+    font-weight: 600;
+    font-size: 60px;
+    color: var(--morado);
+}
+.contacto-descripcion h2{
+    margin-top: 36px;
+    font-family: var(--roboto);
+    font-weight: 400;
+    color: var(--plomo);
+    font-size: 16px;
+}
+.contacto-descripcion h2:nth-child(3){
+    padding-top: 25px;
+    border-top: solid var(--plomo) 1px;
+}

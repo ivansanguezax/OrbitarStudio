@@ -25,6 +25,9 @@
     .clientes-description img, .creativos-description img {
         width: 300px;
     }
+    .contacto-imagen{
+        margin: 0px 60px 0px 0px;
+    }
 
 }
 @media screen and (max-width: 970px) {
@@ -57,6 +60,9 @@
     }
     .clientes-description, .creativos-description{
         margin: 0px;
+    }
+    .contacto-imagen img{
+        width: 300px;
     }
 }
 
@@ -226,6 +232,15 @@
     .clientes-form, .creativos-form{
         margin: 30px 0px;
     }
+    .contacto{
+        flex-direction: column;
+    }
+    .contacto-imagen{
+        margin: 0px;
+    }
+    .contacto-descripcion{
+        margin-top: 30px;
+    }
 
 }
 
@@ -311,5 +326,17 @@
     }
     .contactanos-img img{
         width: 150px;
+    }
+    .contacto-imagen img{
+        width: 200px;
+    }
+    .contacto-descripcion{
+        text-align: center;
+    }
+    .contacto-descripcion h1{
+        font-size: 30px;
+    }
+    .contacto-descripcion h2{
+        font-size: 12px;
     }
 }
