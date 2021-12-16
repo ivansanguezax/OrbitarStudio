@@ -660,3 +660,78 @@ footer{
     padding-top: 25px;
     border-top: solid var(--plomo) 1px;
 }
+
+/* ---Final ContactoPage---- */
+
+/* Equipo */
+
+.team-info{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 65px 30px;
+}
+.team-info-description{
+    width: 507px;
+    margin-right: 87px;
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+}
+.team-info-description h1{
+    font-family: var(--montserrat);
+    font-weight: 700;
+    font-size: 60px;
+    color: var(--morado);
+}
+.team-info-description p{
+    font-family: var(--roboto);
+    font-size: 16px;
+    font-weight: 300;
+    color: var(--plomo);
+}
+.team-info-image img{
+    width: 572px;
+    height: 394px;
+}
+
+.team{
+    padding: 83px 30px;
+    border-top: solid var(--morado) 1px;
+}
+.team-title h1{
+    text-align: center;
+    font-family:  var(--montserrat);
+    font-size: 30px;
+    font-weight: 700;
+}
+.team-photos{
+    margin-top: 63px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: auto;
+    grid-row-gap: 90px;
+}
+.team-member{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.team-member img{
+    width: 170px;
+}
+.team-member h3{
+    font-family: var(--montserrat);
+    font-weight: 600;
+    font-size: 20px;
+    color: var(--morado);
+    margin: 14px 0 9px;
+}
+.team-member h5{
+    font-family: var(--roboto);
+    font-size: 18px;
+    font-weight: lighter;
+    color: var(--plomo);
+    margin: 0px;
+}
