@@ -28,6 +28,10 @@
     .contacto-imagen{
         margin: 0px 60px 0px 0px;
     }
+    .team-info-image img{
+        width: 400px;
+        height: auto;
+    }
 
 }
 @media screen and (max-width: 970px) {
@@ -63,6 +67,17 @@
     }
     .contacto-imagen img{
         width: 300px;
+    }
+    .team-member img{
+        width: 100px;
+    }
+    .team-member h3{
+        font-size: 15px;
+        text-align: center;
+    }
+    .team-member h5{
+        font-size: 13px;
+        text-align: center;
     }
 }
 
@@ -241,6 +256,17 @@
     .contacto-descripcion{
         margin-top: 30px;
     }
+    .team-info{
+        flex-direction: column;
+        align-items: center;
+    }
+    .team-info-description{
+        margin: 0px;
+        text-align: center;
+    }
+    .team-info-image img{
+        width: 300px;
+    }
 
 }
 
@@ -280,6 +306,7 @@
     .portafolio-main-title h5{
         font-size: 10px;
     }
+
     
 }
 
@@ -305,6 +332,18 @@
     }
     .clientes-form input, .clientes-form select, .clientes-form textarea,.creativos-form input, .creativos-form select, .creativos-form textarea{
         width: 250px;
+    }
+    .team-info-description h1{
+        font-size: 40px;
+    }
+    .team-info-description p{
+        font-size: 12px;
+    }
+    .team-info-description{
+        width: auto;
+    }
+    .team-photos{
+        grid-template-columns: repeat(2, 1fr)
     }
 
 }
@@ -338,5 +377,14 @@
     }
     .contacto-descripcion h2{
         font-size: 12px;
+    }
+    .team-info-image img{
+        width: 200px;
+    }
+    .team-photos{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .team-member img{
+        width: 200px;
     }
 }

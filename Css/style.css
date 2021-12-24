@@ -470,7 +470,7 @@ footer{
     font-size: 12px;
     font-weight: 700;
     padding: 12px 36px;
-    width: 48px;
+    width: auto;
     height: 15px;
     border: solid var(--negro) 1px;
     border-radius: 15px;
