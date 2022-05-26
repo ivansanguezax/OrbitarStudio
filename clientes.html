@@ -72,24 +72,24 @@
             <p>Creamos el contenido para que potencies tus <br> ventas y tu presencia en las redes.</p>
         </div>
         <div class="clientes-form">
-            <form action="">
+            <form action="" class="client-form">
                 <h3>Nombre completo</h3>
                 <li>
-                    <input type="text" name="" id="">
+                    <input type="text" name="nombre" id="">
                 </li>
                 <h3>Empresa</h3>
                 <li>
-                    <input type="text" name="" id="">
+                    <input type="text" name="empresa" id="">
                 </li>
                 <h3>Necesidad</h3>
                 
-                <select name="transporte">
+                <select name="necesidad">
 
-                    <option>Necesidad 1</option>
-                    
-                    <option>Necesidad 1</option>
-                    
-                    <option>Necesidad 1</option>
+                    <option value="n1">Necesidad 1</option>
+
+                    <option value="n2">Necesidad 2</option>
+
+                    <option value="n3">Necesidad 3</option>
                     
                     </select>
                 <h3>País de residencia</h3>
@@ -329,9 +329,11 @@
                     <option value="ZM">Zambia</option>
                     <option value="ZW">Zimbabue</option>
                     </select>
+                    
                     <h3>Mensaje</h3>
-                    <textarea name="comentarios" rows="10" cols="40">Escribe aquí tu mensaje</textarea>
-                <button type="submit" value="Enviar información">Enviar</button>
+                    <textarea name="mensaje" rows="10" cols="40">Escribe aquí tu mensaje</textarea>
+                
+                    <button value="Enviar información">Enviar</button>
             </form>
         </div>
     </section>
@@ -370,5 +372,6 @@
     
         <!-- iconos -->
         <script src="https://use.fontawesome.com/8c6a05cecb.js"></script>
+        <script src="./dist/bundle.js"></script>
     </body>
     </html>
