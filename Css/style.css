@@ -214,7 +214,7 @@ header{
     padding: 44px 0px 0px;
     color: var(--plomoClaro);
     border-top: solid var(--plomo-claro) 1px;
-    height: 180px;
+    height: auto;
     flex-wrap: wrap;
 }
 .client-title h2{
@@ -231,9 +231,9 @@ header{
 }
 
 .client-logos img{
-    width: 100px;
-    height: 33px;
+    width: 10%;
 }
+
 
 /* ----Final Clientes ---- */
 
