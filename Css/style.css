@@ -625,6 +625,12 @@ footer{
     background-color: var(--negro);
     color: var(--blanco);
 }
+#name, #phone, #mail, #habilidades, #link, #mensaje{
+    color: var(--plomoClaro);
+    padding-left: 10px;
+}
+
+
 
 /* ----Final Creativos----- */
 
@@ -745,7 +751,7 @@ footer{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 0px 30px;
+    padding: 60px 30px;
     margin-bottom: 95px;
     
 }
@@ -756,7 +762,7 @@ footer{
     font-family: var(--montserrat);
     font-weight: 700;
     font-size: 60px;
-    margin: 0;
+    margin: 20px 0px; 
 }
 .servicios-title h3{
     font-family: var(--roboto);
@@ -797,18 +803,20 @@ footer{
     align-items: center;
 }
 .number h1{
+    height: 50px; 
+    width: 50px; 
     font-family: var(--montserrat);
     font-weight: 700;
-    font-size: 18px;
+    font-size: 40px;
     margin: 0;
     border: 2px solid var(--morado);
-    width: 25px;
-    padding: 10px;
+    padding: 20px;
     margin: 0px;
-    border-radius: 40px;
+    border-radius: 50%;
     text-align: center;
 }
 .number p{
+    margin-top: 22px;
     font-family: var(--roboto);
     font-weight: 400;
     font-size: 14px;
@@ -816,4 +824,40 @@ footer{
 .number li{
     color: var(--morado);
     margin: 0;
+}
+
+.options{
+    padding: 50px 222px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(4,1fr);
+    grid-column-gap: 66px;
+    grid-row-gap: 48px;
+    align-items: center;
+}
+.option{
+    display: flex;
+    flex-direction: column;
+    padding: 0px 30px ;
+    align-items: initial;
+}
+.option img{
+    width: 60px;
+    margin-bottom: 15px;
+}
+
+.option h1{
+    font-family: var(--montserrat);
+    font-size: 22px;
+    text-align: left;
+    font-weight: 600;
+    margin: 0;
+    padding: 10px 0px;
+}
+.option p{
+    font-family: var(--roboto);
+    font-weight: 300;
+    font-size: 14px;
+    margin: 10px 0;
+    color: var(--plomo);
 }

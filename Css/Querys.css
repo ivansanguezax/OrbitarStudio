@@ -32,6 +32,9 @@
         width: 400px;
         height: auto;
     }
+    .options{
+        padding: 0;
+    }
 
 }
 @media screen and (max-width: 970px) {
@@ -268,6 +271,10 @@
         width: 300px;
     }
 
+    .option h1{
+        font-size: 15px;
+    }
+
 }
 
 @media screen and (max-width:540px) {
@@ -306,7 +313,49 @@
     .portafolio-main-title h5{
         font-size: 10px;
     }
+    .options{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        margin-bottom: 100px;
+    }
 
+    .functionS-numbers{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .number{
+        margin-bottom: 40px;
+    }
+    .number h1{
+        height: 20px;
+        width: 20px;
+        font-size: 20px;
+    }
+    .servicios{
+        flex-direction: column-reverse;
+        align-items: center;
+        padding: 50px 0px;
+    }
+    .servicios-image{
+        width: auto !important;
+    }
+    .servicios-image img{
+        width: 200px;
+
+    }
+    .servicios-title{
+        text-align: center;
+        width: auto;
+    }
+    .servicios-title h1{
+        font-size: 40px;
+        margin: 10px 0px;
+    }
+    
+    .servicios-title h3{
+        font-size: 10px;
+    }
     
 }
 

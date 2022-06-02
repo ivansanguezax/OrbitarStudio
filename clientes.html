@@ -24,7 +24,6 @@
 <body>
 
     <!-- Header -->
-
     <header>
         <figure class="header-logo">
             <a href="index.html">
@@ -48,8 +47,9 @@
         <i class="fa fa-instagram" aria-hidden="true"></i>
     </a>
     <a class="icon-menu" href="#">
-        <i class="fa fa-youtube-play" aria-hidden="true"></i>
+        <i class="fa fa-vimeo" aria-hidden="true"></i>
     </a>
+    
     <a class="close" href="#">
       <img src="https://ljc-dev.github.io/testing0/ham-close.svg" alt="close">
     </a>
@@ -71,29 +71,23 @@
                 <br> tus proyectos</h1>
             <p>Creamos el contenido para que potencies tus <br> ventas y tu presencia en las redes.</p>
         </div>
-        <div class="clientes-form">
-            <form action="" class="client-form">
+        <div class="creativos-form">
+            <form class="creative-form" >
                 <h3>Nombre completo</h3>
                 <li>
-                    <input type="text" name="nombre" id="">
+                    <input type="text" name="nombre" id="name" value="Martin Sanchez">
                 </li>
-                <h3>Empresa</h3>
+                <h3>Correo electronico</h3>
                 <li>
-                    <input type="text" name="empresa" id="">
+                    <input type="email" name="correo" id="mail" value="name@correo.com">
                 </li>
-                <h3>Necesidad</h3>
-                
-                <select name="necesidad">
+                <h3>Numero Telefono</h3>
+                <li>
+                    <input id="phone" type="tel" name="phone" value="+123456789" />
+                </li>
 
-                    <option value="n1">Necesidad 1</option>
-
-                    <option value="n2">Necesidad 2</option>
-
-                    <option value="n3">Necesidad 3</option>
-                    
-                    </select>
                 <h3>País de residencia</h3>
-                <select name="pais">
+                <select id="pais" name="pais">
                     <option value="AF">Afganistán</option>
                     <option value="AL">Albania</option>
                     <option value="DE">Alemania</option>
@@ -158,7 +152,7 @@
                     <option value="AE">Emiratos Árabes Unidos</option>
                     <option value="ER">Eritrea</option>
                     <option value="SI">Eslovenia</option>
-                    <option value="ES" selected>España</option>
+                    <option value="ES" >España</option>
                     <option value="US">Estados Unidos</option>
                     <option value="EE">Estonia</option>
                     <option value="ET">Etiopía</option>
@@ -241,7 +235,7 @@
                     <option value="MU">Mauricio</option>
                     <option value="MR">Mauritania</option>
                     <option value="YT">Mayotte</option>
-                    <option value="MX">México</option>
+                    <option value="MX" selected>México</option>
                     <option value="FM">Micronesia</option>
                     <option value="MD">Moldavia</option>
                     <option value="MC">Mónaco</option>
@@ -328,12 +322,17 @@
                     <option value="YU">Yugoslavia</option>
                     <option value="ZM">Zambia</option>
                     <option value="ZW">Zimbabue</option>
-                    </select>
-                    
-                    <h3>Mensaje</h3>
-                    <textarea name="mensaje" rows="10" cols="40">Escribe aquí tu mensaje</textarea>
+                </select>
                 
-                    <button value="Enviar información">Enviar</button>
+                <h3>Asunto</h3>
+                <li>
+                    <input type="text" name="nombre" id="name" value="Proyecto Audiovisual">
+                </li>
+                
+    
+                <h3>Mensaje</h3>
+                <textarea id="mensaje" name="mensaje" rows="10" cols="40">Escribe aquí tu mensaje</textarea>
+                <button value="Enviar información">Enviar</button>
             </form>
         </div>
     </section>
@@ -346,7 +345,7 @@
             </figure>
             <div class="footer-description">
                 <h3>CONTACTANOS</h3>
-                <h5>Teléfono: +52 1 55 8032-6926</h5>
+                <h5>Teléfono: +52 56 3430 7660</h5>
             </div>
     
             <div class="footer-description">
