@@ -1,27 +1,30 @@
+
+
 // Import the functions you need from the SDKs you need
 import { initializeApp } from "firebase/app";
+
 import {
     getFirestore, collection,
     addDoc, serverTimestamp
 } from 'firebase/firestore'
-
+// TODO: Add SDKs for Firebase products that you want to use
 // https://firebase.google.com/docs/web/setup#available-libraries
 
 // Your web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-  apiKey: "AIzaSyBLrGWp71J01dzwtYwX6lmpPybOmsc9kiM",
-  authDomain: "orbitar-studio.firebaseapp.com",
-  projectId: "orbitar-studio",
-  storageBucket: "orbitar-studio.appspot.com",
-  messagingSenderId: "509590499811",
-  appId: "1:509590499811:web:abc69603dd9075b872f0d6",
-  measurementId: "G-ZHSJGKBGFX"
+  apiKey: "AIzaSyAWVRGdl1oDHPFF2P_lP_FZG6o1RFRBnrk",
+  authDomain: "orbitarstudio-a6bbb.firebaseapp.com",
+  projectId: "orbitarstudio-a6bbb",
+  storageBucket: "orbitarstudio-a6bbb.appspot.com",
+  messagingSenderId: "836652019701",
+  appId: "1:836652019701:web:0dbbf5618578ea28d2babc",
+  measurementId: "G-W1HGFQSX49"
 };
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
-const db = getFirestore();
+const db = getFirestore(app);
 
 // collection ref
 const colref_creativos = collection(db, "creativos")
@@ -39,8 +42,11 @@ addCreativeForm.addEventListener('submit', (e) => {
     // console.log(addCreativeForm.mensaje.value);
     addDoc(colref_creativos, {  //sending books as parameter
         nombre: addCreativeForm.nombre.value,
-        habilidades: addCreativeForm.habilidades.value,
+        correo: addCreativeForm.correo.value,
+        phone: addCreativeForm.phone.value,
         pais: addCreativeForm.pais.value,
+        habilidades: addCreativeForm.habilidades.value,
+        link: addCreativeForm.link.value,
         mensaje: addCreativeForm.mensaje.value,
         fecha: serverTimestamp()
     })
@@ -64,9 +70,10 @@ try {
         // console.log(addClientForm.mensaje.value);
         addDoc(colref_clientes, {  //sending books as parameter
             nombre: addClientForm.nombre.value,
-            empresa: addClientForm.empresa.value,
-            necesidad: addClientForm.necesidad.value,
+            correo: addClientForm.correo.value,
+            phone: addClientForm.phone.value,
             pais: addClientForm.pais.value,
+            asunto: addClientForm.asunto.value,
             mensaje: addClientForm.mensaje.value,
             fecha: serverTimestamp()
         })
