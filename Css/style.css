@@ -211,7 +211,7 @@ header{
     display: flex;
     flex-direction: column;
     text-align: center;
-    padding: 44px 0px 0px;
+    padding: 44px 44px;
     color: var(--plomoClaro);
     border-top: solid var(--plomo-claro) 1px;
     height: auto;
@@ -224,14 +224,21 @@ header{
 }
 
 .client-logos{
-    display: flex;
-    justify-content: space-around;
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    grid-template-rows: repeat(2,1fr);
+    row-gap: 20px;
+    justify-items: center;
     align-items: center;
     margin-top: 18px;
 }
 
 .client-logos img{
-    width: 10%;
+    width: 100%;
+    -webkit-filter: grayscale(100%);
+}
+.client-logos img:hover{
+    -webkit-filter: grayscale(0%);
 }
 
 
@@ -557,11 +564,15 @@ footer{
 
 /* ---Creativos---- */
 
+.sections-container{
+    height: 100vh;
+}
 .creativos{
     padding: 31px 140px;
     display: flex;
     justify-content: center;
     align-items: flex-start;
+
 }
 .creativos-description{
     margin-right: 186px;
@@ -861,3 +872,4 @@ footer{
     margin: 10px 0;
     color: var(--plomo);
 }
+

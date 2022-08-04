@@ -3,6 +3,7 @@
     .hero-image img{
         width: 400px;
     }
+    
 }
 
 @media screen and (max-width: 1080px) {
@@ -18,6 +19,7 @@
         padding:0px 0px 100px ;
     }
 
+    
     .portafolio-main-videos-article-video iframe{
         width:500px; 
         height:300px;
@@ -25,6 +27,11 @@
     .clientes-description img, .creativos-description img {
         width: 300px;
     }
+
+    .client-logos{
+        grid-template-columns: repeat(4,1fr) !important;
+    }
+    
     .contacto-imagen{
         margin: 0px 60px 0px 0px;
     }
@@ -183,10 +190,7 @@
       .about-options-container:nth-child(1){
           margin-top: 0px;
       }
-      .client-logos img{
-          width: 60px;
-          height: auto;
-      }
+
       .contactanos{
           flex-direction: column;
 
@@ -274,6 +278,12 @@
     .option h1{
         font-size: 15px;
     }
+    .client-logos{
+        grid-template-columns: repeat(3,1fr) !important;
+    }
+    /* .client-logos img{
+        width: 80%;
+    } */
 
 }
 
@@ -355,6 +365,9 @@
     
     .servicios-title h3{
         font-size: 10px;
+    }
+    .client-logos{
+        grid-template-columns: repeat(2,1fr) !important;
     }
     
 }
