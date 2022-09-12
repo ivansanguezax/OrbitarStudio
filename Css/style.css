@@ -363,6 +363,12 @@ footer{
 .footer-description h5{
     font-size: 12px;
     font-weight: lighter;
+
+}
+.footer-description a{
+    font-size: 12px;
+    font-weight: lighter;
+    color: var(--blanco);
 }
 .footer-icons{
     width: 90px;
