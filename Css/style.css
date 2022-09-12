@@ -64,7 +64,7 @@ header{
     margin-right: 15px;
 }
 .header-menu a:hover{
-    color: var(--verde);
+    color: var(--rosado);
 }
 .header-menu a:nth-child(10){
     margin-right: 0px;
