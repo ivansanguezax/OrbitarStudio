@@ -594,6 +594,10 @@ footer{
     background-color: var(--negro);
     color: var(--blanco);
 }
+#name, #phone, #mail, #habilidades, #link, #mensaje{
+    color: #000000 !important;
+}
+
 
 /* Final Clientes */
 
